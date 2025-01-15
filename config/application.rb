@@ -57,7 +57,7 @@ module Leisuresphere
     if Rails.env.development?
       config.action_mailer.asset_host = "http://127.0.0.1:3000/"
     elsif Rails.env.production?
-      config.action_mailer.asset_host = "https://leisuresphere-19144872.koyeb.app"
+      # config.action_mailer.asset_host = "https://leisuresphere-19144872.koyeb.app"
     end
   end
 end
